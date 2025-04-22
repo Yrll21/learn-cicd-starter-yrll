@@ -13,7 +13,7 @@ func TestGetAPIKey(t *testing.T) {
 	}
 
 	got, err := GetAPIKey(headers)
-	want := "12345678"
+	want := "1234567"
 	if err != nil {
 		t.Errorf("Failed to get API with the following error: %v", err)
 	}
